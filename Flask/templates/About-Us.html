@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="{{ url_for('static' , filename='img/logo/we.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static' , filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static' , filename='css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static' , filename='css/main-page.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static' , filename='css/all.min.css') }}">
+<title>Askar</title>
+</head>
+
+<body>
+
+<!--nav-->
+<nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark fixed-top">
+<div class="container">
+    <a class="navbar-brand ro hvr-wobble-vertical " href="#">Askar <span>WebSite</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#click" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="click">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+        <li class="nav-item">
+<a class="nav-link " aria-current="page" href="/main-page.html">Home</a>
+        </li>
+        <li class="nav-item">
+<a class="nav-link active" href="About-Us.html">About</a>
+        </li>
+        <li class="nav-item">
+<a class="nav-link" href="/FAQ.html">FAQ</a>
+        </li>
+        <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            services
+        </a>
+<ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Programming</a></li>
+            <li><a class="dropdown-item" href="#">Web design</a></li>
+            <li><a class="dropdown-item" href="#">Desktop</a></li>
+</ul>
+        </li>
+        <li class="nav-item">
+<a class="nav-link ">Map</a>
+        </li>
+        <li class="nav-item">
+<a class="nav-link ">Contact Us</a>
+        </li>
+    </ul>
+    </div>
+</div>
+</nav>
+
+<!--nav-->
+
+<!--breadcrumb-->
+<div class="bread">
+<div class="container">
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="main-page.html">Home</a></li>
+<li class="breadcrumb-item active" aria-current="page">About Us</li>
+        </ol>
+</nav>
+    
+</div>
+
+
+</div>
+
+<!--breadcrumb-->
+<!--About-->
+<section class="About text-center">
+    <div class="container">
+<h1>About <span>Us</span></h1>
+<hr>
+<p class="lead">Think About Us When You Want To Do It , Just Contact With Us And Will Be Here AnyTime You Want !</p>
+<img src="{{ url_for('static',filename='img/About.png') }}" alt="About Us" class="img-thumbnai">
+
+
+</div>
+
+</section>
+<!--About-->
+<!--About features-->
+
+<section class="AF text-center">
+    <div class="container">
+        <div class="row">
+        
+            <div class="col-sm-4 des">
+                <h3>We Love Code</h3>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/> </svg>
+            </span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta suscipit fuga debitis sequi. Sunt praesentium nemo veritatis illo nesciunt iste </p>
+            </div>
+            
+            <div class="col-sm-4 des">
+                <h3>We Are Social</h3>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                    <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
+            </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta suscipit fuga debitis sequi. Sunt praesentium nemo veritatis illo nesciunt iste </p>
+        
+            </div>
+            
+            <div class="col-sm-4 des">
+                <h3>We Are Happy</h3>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-universal-access" viewBox="0 0 16 16">
+                        <path d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM6 5.5l-4.535-.442A.531.531 0 0 1 1.531 4H14.47a.531.531 0 0 1 .066 1.058L10 5.5V9l.452 6.42a.535.535 0 0 1-1.053.174L8.243 9.97c-.064-.252-.422-.252-.486 0l-1.156 5.624a.535.535 0 0 1-1.053-.174L6 9V5.5Z"/>                      </svg>
+                </span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta suscipit fuga debitis sequi. Sunt praesentium nemo veritatis illo nesciunt iste </p>
+            </div>               
+        
+        </div>
+        
+        
+        </div>      
+</section>
+
+<!--About features-->
+
+<!--Contact-->
+
+<section class="ContactW">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <img src="{{ url_for('static',filename='img/man.jpg') }}" alt="" class="img-thumbnai">
+            </div>
+
+
+            <div class="col-sm-7 f">
+                <h2>We are Happy To Work And Help You</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Nam explicabo suscipit est mollitia non et nesciunt hic numquam quae minus officia, 
+                    incidunt rem debitis cum excepturi itaque? Reiciendis, vel laboriosam.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Nam explicabo suscipit est mollitia non et nesciunt hic numquam quae minus officia, 
+                    incidunt rem debitis cum excepturi itaque? Reiciendis, vel laboriosam.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Nam explicabo suscipit est mollitia non et nesciunt hic numquam quae minus officia, 
+                    incidunt rem debitis cum excepturi itaque? Reiciendis, vel laboriosam.</p>
+                    <button type="button" class="btn btn-dark">Contact With Us</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact-->
+
+
+
+
+
+
+<!--Footer-->
+
+
+
+<section class="footer wow rollIn" data-wow-offset="200">
+  <div class="container">
+    <div class="row">
+ 
+    <div class="col-lg-4 col-md-6">
+      <h3>Sitemap</h3>
+      <ul class="list-unstyled ul-1">
+        <li>Home</li>
+        <li>About</li>
+        <li>Company</li>
+        <li>Code</li>
+        <li>Design</li>
+        <li>Host</li>
+        <li>Solutions</li>
+        <li>Sitemap</li>
+        <li>Contact</li>
+      </ul>
+
+      <ul class="list-unstyled ul-2">
+        <li>
+          <img src="{{ url_for('static',filename='img/social media/1.png') }}" alt="">
+        </li>
+        <li><img src="{{ url_for('static',filename='img/social media/2.png') }}" alt=""></li>
+        <li><img src="{{ url_for('static',filename='img/social media/3.png') }}" alt=""></li>
+        <li><img src="{{ url_for('static',filename='img/social media/4.png') }}" alt=""></li>
+        <li><img src="{{ url_for('static',filename='img/social media/5.png') }}" alt=""></li>
+        <li><img src="{{ url_for('static',filename='img/social media/6.png') }}" alt=""></li>
+
+      </ul>
+
+    </div>
+   
+    <div class="col-lg-4 col-md-6">
+  <h3>Latest Articles</h3>
+
+
+<!-- Media object -->
+<div class="d-flex med" >
+  <!-- Image -->
+  <img
+    src="{{ url_for('static',filename='img/footer/1.jpg') }}"alt="John Doe"/>
+  <!-- Body -->
+  <div>
+    <h5 class="fw-bold"  style="color:#b3d921b3;">
+      Programming    
+    </h5>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit,form Askar for  web
+    </p>
+  </div>
+</div>
+<!-- Media object -->
+
+
+<!-- Media object -->
+<div class="d-flex med">
+  <!-- Image -->
+  <img src="{{ url_for('static',filename='img/footer/2.webp') }}" alt="John Doe" />
+  <!-- Body -->
+  <div>
+    <h5 class="fw-bold" style="color:#dc2ab0b5;">
+Coding
+    </h5>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit,form Askar for  web
+    </p>
+  </div>
+</div>
+<!-- Media object -->
+
+
+<!-- Media object -->
+<div class="d-flex med">
+  <!-- Image -->
+  <img
+    src="{{ url_for('static',filename='img/footer/3.jpg') }}"alt="John Doe"/>
+  <!-- Body -->
+  <div>
+    <h5 class="fw-bold" style="color:#4cd44fa3;">
+    Web Design
+    </h5>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, from Askar for  web
+    </p>
+  </div>
+</div>
+<!-- Media object -->  
+    </div>
+
+
+    <div class="col-lg-4 third">
+<h3> Our Awsome Work</h3>
+<img src="{{ url_for('static',filename='img/footer/4.jpg') }}" alt="">
+<img src="{{ url_for('static',filename='img/footer/5.png') }}" alt="">
+<img src="{{ url_for('static',filename='img/footer/6.png') }}" alt="">
+<img src="{{ url_for('static',filename='img/footer/7.png') }}" alt="">
+    </div>
+
+    </div>
+  </div>
+  <div class="copy">
+    <p>Copyright &copy;2022 Askar <span>For-Web</span></p>
+  </div>
+</section>
+
+<!--Footer-->
+
+
+
+<!--back to top-->
+<div class="top">
+   <span> 
+   <a href="#">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shift-fill" viewBox="0 0 16 16">
+      <path d="M7.27 2.047a1 1 0 0 1 1.46 0l6.345 6.77c.6.638.146 1.683-.73 1.683H11.5v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3H1.654C.78 10.5.326 9.455.924 8.816L7.27 2.047z"/>
+    </svg>
+   </a>
+   </span>
+</div>
+<!--back to top-->
+
+
+
+<script src="{{ url_for('static',filename='js/bootstrap.bundle.min.js') }}"> </script>
+<script src="{{ url_for('static',filename='js/all.min.js') }}"></script> 
+
+</body>
+</html>

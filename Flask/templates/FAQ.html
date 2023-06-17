@@ -1,0 +1,341 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="img/png" href="{{ url_for('static' , filename='img/logo/we.png') }}">
+        <link rel="stylesheet" href="{{ url_for('static' , filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static' , filename='css/all.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static' , filename='css/main-page.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static' , filename='css/all.min.css') }}">
+    <title>Askar</title>
+    </head>
+
+    <body>
+  
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand ro hvr-wobble-vertical " href="#">Askar <span>WebSite</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#click" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="click">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+            <li class="nav-item">
+    <a class="nav-link " aria-current="page" href="/main-page.html">Home</a>
+            </li>
+            <li class="nav-item">
+    <a class="nav-link" href="/About-Us.html">About</a>
+            </li>
+            <li class="nav-item">
+    <a class="nav-link active" href="FAQ.html">FAQ</a>
+            </li>
+            <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                services
+            </a>
+    <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Programming</a></li>
+                <li><a class="dropdown-item" href="#">Web design</a></li>
+                <li><a class="dropdown-item" href="#">Desktop</a></li>
+    </ul>
+            </li>
+            <li class="nav-item">
+    <a class="nav-link ">Map</a>
+            </li>
+            <li class="nav-item">
+    <a class="nav-link ">Contact Us</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!--nav-->
+
+    <!--breadcrumb-->
+    <div class="bread">
+    <div class="container">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="main-page.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+            </ol>
+    </nav>
+        
+    </div>
+
+
+    </div>
+
+    <!--breadcrumb-->
+
+
+
+    <!--FAQ intro-->
+
+
+    <section class="F">
+    <div class="container text-center">
+        <h1>Frequently Asked Questions</h1>
+        <hr>
+        <p class="lead">Here You Will Find All The Questions You Want to Know About It And Feed Your Information More And More With knowledge</p>
+    </div>
+    </section>
+    <!--FAQ intro-->
+
+    <!--FAQ AC-->
+
+    <section class="FAQ-start">
+        <div class="container">
+            
+    
+    <div class="accordion" id="accordionExample">
+
+
+        <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"  aria-controls="collapseOne">
+                #1 How To Use Bootstrap Version 5.2 ? 
+            </button>
+            </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+             Check BootStrap Website To see Any Update And to see How Instal it 
+            </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"  aria-controls="collapseTwo">
+                #2 How To Use Media Queries ? 
+            </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+            Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="card">
+        <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"  aria-controls="collapseThree">
+                #3  How To Learn Front-End In Perfect Way ? 
+            </button>
+            </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+            And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+            </div>
+        </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"  aria-controls="collapseFour">
+                    #4 How  Learn To Control Your Own Time ? 
+                </button>
+                </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                </div>
+            </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="card-header" id="headingFive"> 
+                    <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"  aria-controls="collapseFive">
+                        #4  How Start Your First Project In Right Way ?
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                    And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                    </div>
+                </div>
+                </div>
+    
+
+
+
+
+
+    </div>
+        
+        </div>
+    </section>
+
+
+    <!--FAQ AC-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Footer-->
+
+
+
+    <section class="footer wow rollIn" data-wow-offset="200">
+        <div class="container">
+          <div class="row">
+       
+          <div class="col-lg-4 col-md-6">
+            <h3>Sitemap</h3>
+            <ul class="list-unstyled ul-1">
+              <li>Home</li>
+              <li>About</li>
+              <li>Company</li>
+              <li>Code</li>
+              <li>Design</li>
+              <li>Host</li>
+              <li>Solutions</li>
+              <li>Sitemap</li>
+              <li>Contact</li>
+            </ul>
+      
+            <ul class="list-unstyled ul-2">
+              <li>
+                <img src="{{ url_for('static',filename='img/social media/1.png') }}" alt="">
+              </li>
+              <li><img src="{{ url_for('static',filename='img/social media/2.png') }}" alt=""></li>
+              <li><img src="{{ url_for('static',filename='img/social media/3.png') }}" alt=""></li>
+              <li><img src="{{ url_for('static',filename='img/social media/4.png') }}" alt=""></li>
+              <li><img src="{{ url_for('static',filename='img/social media/5.png') }}" alt=""></li>
+              <li><img src="{{ url_for('static',filename='img/social media/6.png') }}" alt=""></li>
+      
+            </ul>
+      
+          </div>
+         
+          <div class="col-lg-4 col-md-6">
+        <h3>Latest Articles</h3>
+      
+      
+      <!-- Media object -->
+      <div class="d-flex med" >
+        <!-- Image -->
+        <img
+          src="{{ url_for('static',filename='img/footer/1.jpg') }}"alt="John Doe"/>
+        <!-- Body -->
+        <div>
+          <h5 class="fw-bold"  style="color:#b3d921b3;">
+            Programming    
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,form Askar for  web
+          </p>
+        </div>
+      </div>
+      <!-- Media object -->
+      
+      
+      <!-- Media object -->
+      <div class="d-flex med">
+        <!-- Image -->
+        <img src="{{ url_for('static',filename='img/footer/2.webp') }}" alt="John Doe" />
+        <!-- Body -->
+        <div>
+          <h5 class="fw-bold" style="color:#dc2ab0b5;">
+      Coding
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,form Askar for  web
+          </p>
+        </div>
+      </div>
+      <!-- Media object -->
+      
+      
+      <!-- Media object -->
+      <div class="d-flex med">
+        <!-- Image -->
+        <img
+          src="{{ url_for('static',filename='img/footer/3.jpg') }}"alt="John Doe"/>
+        <!-- Body -->
+        <div>
+          <h5 class="fw-bold" style="color:#4cd44fa3;">
+          Web Design
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, from Askar for  web
+          </p>
+        </div>
+      </div>
+      <!-- Media object -->  
+          </div>
+      
+      
+          <div class="col-lg-4 third">
+      <h3> Our Awsome Work</h3>
+      <img src="{{ url_for('static',filename='img/footer/4.jpg') }}" alt="">
+      <img src="{{ url_for('static',filename='img/footer/5.png') }}" alt="">
+      <img src="{{ url_for('static',filename='img/footer/6.png') }}" alt="">
+      <img src="{{ url_for('static',filename='img/footer/7.png') }}" alt="">
+          </div>
+      
+          </div>
+        </div>
+        <div class="copy">
+          <p>Copyright &copy;2022 Askar <span>For-Web</span></p>
+        </div>
+      </section>
+
+    <!--Footer-->
+
+
+
+    <!--back to top-->
+    <div class="top">
+    <span> 
+    <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shift-fill" viewBox="0 0 16 16">
+        <path d="M7.27 2.047a1 1 0 0 1 1.46 0l6.345 6.77c.6.638.146 1.683-.73 1.683H11.5v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3H1.654C.78 10.5.326 9.455.924 8.816L7.27 2.047z"/>
+        </svg>
+    </a>
+    </span>
+    </div>
+    <!--back to top-->
+
+
+
+    <script src="{{ url_for('static',filename='js/bootstrap.bundle.min.js') }}"> </script>
+    <script src="{{ url_for('static',filename='js/all.min.js') }}"></script> 
+
+    </body>
+    </html>
